@@ -8,8 +8,8 @@ arrayKrs=["https://kuisioner-ng.unud.ac.id/respon_kuisioner/isi_respon_kuisioner
 browser  = webdriver.Chrome(ChromeDriverManager().install())
 browser.get('https://kuisioner-ng.unud.ac.id/respon_kuisioner/isi_respon_kuisioner/139?id_krs_detail=7230230')
 browser.implicitly_wait(7)
-browser.find_element_by_css_selector("input[id='username']").send_keys("1905511064")
-browser.find_element_by_css_selector("input[id='password']").send_keys("dreamer2712")
+browser.find_element_by_css_selector("input[id='username']").send_keys("USERAME")
+browser.find_element_by_css_selector("input[id='password']").send_keys("PASSWORD")
 browser.implicitly_wait(10)
 time.sleep(10)
 for link in arrayKrs:
